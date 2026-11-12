@@ -1,0 +1,20 @@
+[project]
+name = "panelytics"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "fastparquet>=2026.9.0",
+    "matplotlib>=3.11.2",
+    "numpy>=2.5.4",
+    "panelyzer",
+    "plotnine>=0.15.9",
+    "polars>=2.1.0",
+    "pyside6>=6.12.0",
+    "scikit-learn>=1.9.1",
+    "scipy>=1.18.1",
+]
+
+[tool.uv.sources]
+panelyzer = { git = "https://github.com/FulgentMcGuffin/panelyzer.git" }

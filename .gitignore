@@ -2,9 +2,45 @@
 __pycache__/
 *.py[codz]
 *$py.class
+*.py[oc]
+.pytest_dbs/
+test_*.duckdb
+examples/feature_builder/out.*
+examples/feature_builder/ycs_zero_rate_features.yaml
+examples/feature_builder/ycs_zero_rate_features.parquet
+examples/feature_builder/ycs_subset.parquet
+.tmp_db/
+tmp_*.py
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
 
 # C extensions
 *.so
+
+# Mex - unvibe
+.mex
+.mex/**
+shipready_results/
+shipready_results/**
+shipready_results/*
+
+# Claude
+.claude/
+CLAUDE.md
+
+# Cursor
+.cursor/
+
 
 # Distribution / packaging
 .Python
